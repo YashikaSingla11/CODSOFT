@@ -1,0 +1,104 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77B300 3px solid;
+}
+
+.header .logo {
+    float: left;
+}
+
+.header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+.header .nav {
+    list-style: none;
+}
+
+.header .nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.header .nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header .nav li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: #77B300;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    color: #77B300;
+    background: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background: #f4f4f4;
+}
+
+.features {
+    padding: 50px 0;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.features .feature {
+    width: 30%;
+    float: left;
+    padding: 20px;
+    margin: 0 1.66%;
+    background: #fff;
+    border: #e4e4e4 1px solid;
+    border-radius: 5px;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 30px;
+    clear: both;
+}
